@@ -5,7 +5,8 @@ var game1;
 var player1,form1;
 var allplayers;
 var car1,car2,car3,car4,cars;
-var img1,img2,img3,img4,track
+var img1,img2,img3,img4,track;
+var i = 2
 
 function preload()
 {
@@ -27,7 +28,7 @@ function setup()
 
 function draw()
 {
-  if(player_count===4)
+  if(player_count===i)
   {
     game1.updatestate(1)
   }
